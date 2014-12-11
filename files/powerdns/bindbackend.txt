@@ -1,0 +1,10 @@
+zone "arloesol.com" {
+        type master;
+        file "/etc/powerdns/bind/arloesol.com.zone";
+        allow-update { none; };
+};
+zone "spanish.arloesol.com" {
+        type master;
+        file "/etc/powerdns/bind/spanish.arloesol.com.zone";
+        allow-update { none; };
+};

@@ -1,0 +1,12 @@
+$ORIGIN spanish.arloesol.com     ; base for unqualified names
+$TTL 1h                 ; default time-to-live
+@                       IN      SOA ns.spanish.arloesol.com hostmaster.spanish.arloesol.com (
+                                1; serial
+                                1d; refresh
+                                2h; retry
+                                4w; expire
+                                1h; minimum time-to-live
+                        )
+                        IN      NS      ns
+                        IN      A       192.168.1.128
+ns                      IN      A       192.168.1.128
